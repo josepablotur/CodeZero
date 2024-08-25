@@ -13,9 +13,15 @@ def find_max(numbers: list) -> int:
     
     return maximo
 
+def testing():
+    testing_var = 5
+    return testing_var
 
 
 numbers = [3, 5, 7, 2, 8, 1, 4]
 max_value = find_max(numbers)
 print(f"El número máximo en la lista es: {max_value}")
+
+
+
 
